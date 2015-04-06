@@ -1,1 +1,5 @@
-Check out http://shopify.github.com/dashing for more information.
+# HOW
+
+    $ bundle install
+    # fill out ENV variables in .env
+    $ foreman run dashing start
