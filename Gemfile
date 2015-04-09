@@ -7,3 +7,5 @@ gem 'pry-stack_explorer'
 git 'https://github.com/Instagram/instagram-ruby-gem.git' do
   gem 'instagram'
 end
+gem 'nokogiri'
+gem 'htmlentities'
