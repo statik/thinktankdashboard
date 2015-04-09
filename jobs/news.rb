@@ -4,10 +4,10 @@ require 'nokogiri'
 require 'htmlentities'
 
 news_feeds = {
-  #{}"bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
-  #{}"mashable" => "http://feeds.feedburner.com/Mashable",
-  #{}"techcrunch" => "http://feeds.feedburner.com/TechCrunch/",
-  #{}"opm" => "http://www.opm.gov/rss/operatingstatus.atom",
+  "bbc-tech" => "http://feeds.bbci.co.uk/news/technology/rss.xml",
+  #"mashable" => "http://feeds.feedburner.com/Mashable",
+  #"techcrunch" => "http://feeds.feedburner.com/TechCrunch/",
+  #"opm" => "http://www.opm.gov/rss/operatingstatus.atom",
   "bdn" => "http://bangordailynews.com/feed/",
 }
 
