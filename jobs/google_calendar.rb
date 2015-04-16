@@ -35,7 +35,7 @@ client.authorization = Signet::OAuth2::Client.new(
 
 #binding.pry
 # Start the scheduler
-SCHEDULER.every '15m', :first_in => 4 do |job|
+SCHEDULER.every '5m', :first_in => 4 do |job|
 
   # Request a token for our service account
   client.authorization.fetch_access_token!
